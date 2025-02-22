@@ -12,13 +12,19 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text(
+          'MQTT Demo',
+          style: Theme.of(context).textTheme.titleLarge,
+        ),
+      ),
       body: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           // const Expanded(
           //   child: TimerWidget(),
           // ),
-          const Expanded(
+           Expanded(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
@@ -43,7 +49,7 @@ class HomeScreen extends StatelessWidget {
           Expanded(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: const [
+              children:  [
                 ToggleSwitch(),
                 SizedBox(height: 20),
                 SensorStateWidget(),

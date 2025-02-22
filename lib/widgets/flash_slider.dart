@@ -2,16 +2,18 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:udemy_mqtt_demo_ios/bloc/cubits/flash_cubit/flash_cubit.dart';
 import 'package:udemy_mqtt_demo_ios/utilities/constants.dart';
+import 'package:udemy_mqtt_demo_ios/utilities/custom_platform.dart';
 
 class FlashSlider extends StatelessWidget {
-  const FlashSlider({super.key});
+   FlashSlider({super.key});
+  final CustomPlatform _customPlatform = CustomPlatform();
 
   @override
   Widget build(BuildContext context) {
     return BlocBuilder<FlashCubit, FlashState>(
       builder: (context, state) {
         return SizedBox(
-          height: Constants.kSizedBoxHeight,
+           height: _customPlatform.getPlatformAdjustedHeight(Constants.kSizedBoxHeight),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center,

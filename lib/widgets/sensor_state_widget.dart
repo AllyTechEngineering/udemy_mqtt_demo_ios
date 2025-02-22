@@ -21,7 +21,7 @@ class SensorStateWidget extends StatelessWidget {
             decoration: CustomDecorations.gradientContainer(isActive: state.isDetected),
             child: Text(
               state.isDetected ? Constants.kStatusTrue : Constants.kStatusFalse,
-              style: Theme.of(context).textTheme.displayLarge,
+              style: Theme.of(context).textTheme.bodySmall,
               textAlign: TextAlign.center,
             ),
           ),

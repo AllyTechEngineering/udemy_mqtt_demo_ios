@@ -67,6 +67,7 @@ class CustomAppTheme {
         color: Colors.white,
       ),
       bodySmall: GoogleFonts.roboto(
+        fontWeight: FontWeight.bold,
         fontSize: Constants.kBodySmallFontSize,
         color: Colors.white,
       ),
@@ -169,7 +170,6 @@ class CustomAppTheme {
         fontWeight: FontWeight.bold,
         color: Color(0xFF053B50),
       ),
-      
     ),
     datePickerTheme: const DatePickerThemeData(
       backgroundColor: Color(0xFFEEEEEE),

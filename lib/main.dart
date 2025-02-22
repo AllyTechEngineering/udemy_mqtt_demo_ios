@@ -77,20 +77,16 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return RepositoryProvider(
-      create: (context) => dataRepository,
+    return RepositoryProvider.value(
+      value: dataRepository,
       child: MultiBlocProvider(
         providers: [
-          BlocProvider(
-              create: (context) => PwmCubit(dataRepository)),
-          BlocProvider(
-              create: (context) => FlashCubit(dataRepository)),
+          BlocProvider(create: (context) => PwmCubit(dataRepository)),
+          BlocProvider(create: (context) => FlashCubit(dataRepository)),
           BlocProvider(
               create: (context) => TimerCubit(dataRepository, timerService)),
-          BlocProvider(
-              create: (context) => SensorCubit(dataRepository)),
-          BlocProvider(
-              create: (context) => ToggleCubit(dataRepository)),
+          BlocProvider(create: (context) => SensorCubit(dataRepository)),
+          BlocProvider(create: (context) => ToggleCubit(dataRepository)),
         ],
         child: MaterialApp(
           debugShowCheckedModeBanner: false,

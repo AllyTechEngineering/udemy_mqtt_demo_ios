@@ -9,7 +9,7 @@ import '../models/device_state_model.dart';
 class MqttService {
   final String _broker = "192.168.1.111"; // Raspberry Pi IP
   final int _port = 1883;
-  final String _clientId = "flutter_client_ios";
+  final String _clientId = "flutter_client_mac";
   final String _topic = "device/state";
 
   late final String _username;

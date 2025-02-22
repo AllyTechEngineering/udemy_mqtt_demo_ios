@@ -22,7 +22,7 @@ class FlashToggleSwitch extends StatelessWidget {
             children: [
               Text(
                 state.isFlashing ? Constants.kLabelFlashOn : Constants.kLabelFlashOff,
-                style: Theme.of(context).textTheme.bodyMedium,
+                style: Theme.of(context).textTheme.bodySmall,
               ),
               Switch(
                 value: state.isFlashing,

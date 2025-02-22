@@ -20,12 +20,12 @@ class Constants {
   static const String kToggleFalse = 'Device Off:';
   static const int kFlashRate = 500; // Flash rate in milliseconds
   static const int kPollingDuration = 500; // Polling duration in milliseconds
-  static const double kWidth = 100.0; // Width of container
+  static const double kWidth = 120.0; // Width of container
   static const double kHeight = 100.0; // Height of container
-  static const double kSizedBoxHeight = 300.0;
+  static const double kSizedBoxHeight = 400.0;
   static const double kSizedBoxWidth = 800.0;
-  static const double kSmallBoxHeight = 60.0;
-  static const double kSmallBoxWidth = 130.0;
+  static const double kSmallBoxHeight = 100.0;
+  static const double kSmallBoxWidth = 120.0;
   static const double kLargeBoxHeight = 60.0;
   static const double kLargeBoxWidth = 150.0;
   static const Color kColorTrue = Colors.green;
@@ -34,7 +34,7 @@ class Constants {
   static const Color kColorDark = Color(0xFF497D74);
   static const Color kColorMedium = Color(0xFF71BBB2);
   static const Color kColorLight = Color(0xFFEFE9D5);
-   static const Color kColorDarkestRed = Color(0xFF872341);
+  static const Color kColorDarkestRed = Color(0xFF872341);
   static const Color kColorDarkRed = Color(0xFFBE3144);
   // theme constants
   static const double kToolbarTextStyle = 16.0;
@@ -42,7 +42,7 @@ class Constants {
   static const double kActionsIconThemeIconSize = 24.0;
   static const double kBodyLargeFontSize = 18.0;
   static const double kBodyMediumFontSize = 16.0;
-  static const double kBodySmallFontSize = 14.0;
+  static const double kBodySmallFontSize = 10.0;
   static const double kDisplayLargeFontSize = 18.0;
   static const double kDisplayMediumFontSize = 18.0;
   static const double kDisplaySmallFontSize = 12.0;
