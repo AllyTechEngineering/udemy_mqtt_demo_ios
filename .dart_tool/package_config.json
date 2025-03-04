@@ -3,7 +3,7 @@
   "packages": [
     {
       "name": "archive",
-      "rootUri": "file:///Users/Admin/.pub-cache/hosted/pub.dev/archive-4.0.2",
+      "rootUri": "file:///Users/Admin/.pub-cache/hosted/pub.dev/archive-4.0.4",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -57,7 +57,7 @@
     },
     {
       "name": "dart_periphery",
-      "rootUri": "file:///Users/Admin/.pub-cache/hosted/pub.dev/dart_periphery-0.9.15",
+      "rootUri": "file:///Users/Admin/.pub-cache/hosted/pub.dev/dart_periphery-0.9.17",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
@@ -99,7 +99,7 @@
     },
     {
       "name": "flutter_bloc",
-      "rootUri": "file:///Users/Admin/.pub-cache/hosted/pub.dev/flutter_bloc-9.0.0",
+      "rootUri": "file:///Users/Admin/.pub-cache/hosted/pub.dev/flutter_bloc-9.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
@@ -189,7 +189,7 @@
     },
     {
       "name": "mqtt_client",
-      "rootUri": "file:///Users/Admin/.pub-cache/hosted/pub.dev/mqtt_client-10.7.0",
+      "rootUri": "file:///Users/Admin/.pub-cache/hosted/pub.dev/mqtt_client-10.8.0",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
@@ -363,7 +363,7 @@
     },
     {
       "name": "web",
-      "rootUri": "file:///Users/Admin/.pub-cache/hosted/pub.dev/web-1.1.0",
+      "rootUri": "file:///Users/Admin/.pub-cache/hosted/pub.dev/web-1.1.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
@@ -386,7 +386,7 @@
       "languageVersion": "3.6"
     }
   ],
-  "generated": "2025-02-22T19:42:18.585638Z",
+  "generated": "2025-03-04T11:52:48.245244Z",
   "generator": "pub",
   "generatorVersion": "3.7.0",
   "flutterRoot": "file:///Users/Admin/Documents/Developer/flutter",

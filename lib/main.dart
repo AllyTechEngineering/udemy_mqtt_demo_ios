@@ -90,6 +90,7 @@ class MyApp extends StatelessWidget {
         ],
         child: MaterialApp(
           debugShowCheckedModeBanner: false,
+          showPerformanceOverlay: true,
           title: 'MQTT Demo',
           theme: CustomAppTheme.appTheme,
           home: const HomeScreen(),
