@@ -1,6 +1,16 @@
 # udemy_led_demo
 
 LED Demo Using BLoC
+On my MacBook Pro when I tried to push the code to GitHub, I got the following error:
+``
+error: RPC failed; HTTP 400 curl 22 The requested URL returned error: 400
+``
+Too large a file was being pushed to GitHub.
+To fix this, I ran the following command:
+```
+git config --global http.postBuffer 524288000
+```
+This command increases the buffer size to 500MB. The default is 1MB.
 
 ## Set a static IP address for your Pi
 All of this will be done in terminal at command line
